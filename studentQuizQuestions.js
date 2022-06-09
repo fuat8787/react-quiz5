@@ -27,7 +27,7 @@ export default function StudentQuizQuestions({saveQuestion,count,handleQuestions
 
                                 {saveQuestion.length > 0 && <div className="stundentQuizDiv">
 
-                                    <p className='inputText' style={{marginTop:'-2rem'}} >Question {count+1} :</p>
+                                    <p className='inputText' style={{marginTop:'-2rem'}} >Soru {count+1} :</p>
 
                                     <input type="text" value={saveQuestion[count].question} className='form-control' style={{width: '100%'}} disabled placeholder='Soru' name="question" id="" />
 
@@ -35,7 +35,7 @@ export default function StudentQuizQuestions({saveQuestion,count,handleQuestions
 
                                         <div className="leftSide w-50">
 
-                                            <p className='inputText mt-2'>Option 1:</p>
+                                            <p className='inputText mt-2'>A:</p>
 
                                             <input type="button" value={saveQuestion[count].option1} onClick={NextBtn} disabled={isOpened} className='form-control optionBtn' style={{width: '90%'}} name="option1" id="" />
 
@@ -43,7 +43,7 @@ export default function StudentQuizQuestions({saveQuestion,count,handleQuestions
 
                                         <div className="rightSide w-50">
 
-                                            <p className='inputText mt-2'>Option 2:</p>
+                                            <p className='inputText mt-2'>B:</p>
 
                                             <input type="button" value={saveQuestion[count].option2} onClick={NextBtn} disabled={isOpened} className='form-control optionBtn' style={{width: '100%'}} name="option2" id="" />
 
@@ -55,7 +55,7 @@ export default function StudentQuizQuestions({saveQuestion,count,handleQuestions
 
                                         <div className="leftSide w-50">
 
-                                            <p className='inputText mt-2'>Option 3:</p>
+                                            <p className='inputText mt-2'>C:</p>
 
                                             <input type="button" value={saveQuestion[count].option3} onClick={NextBtn} disabled={isOpened} className='form-control optionBtn' style={{width: '90%'}} name="option3" id="" />
 
@@ -63,7 +63,7 @@ export default function StudentQuizQuestions({saveQuestion,count,handleQuestions
 
                                         <div className="rightSide w-50">
 
-                                            <p className='inputText mt-2'>Option 4:</p>
+                                            <p className='inputText mt-2'>D:</p>
 
                                             <input type="button" value={saveQuestion[count].option4} onClick={NextBtn} disabled={isOpened} className='form-control optionBtn' style={{width: '100%'}} name="option4" id="" />
 
