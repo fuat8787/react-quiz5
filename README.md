@@ -56,7 +56,8 @@ Hesabım butonunu hele hazırlamadım
 ![image](https://user-images.githubusercontent.com/77631413/172840855-b2c318c4-19fa-4a60-beae-6767406952b4.png)
 
 Sınava gir butonuna basarak kaydettiğimiz sınava giriyoruz
-![image](https://user-images.githubusercontent.com/77631413/172841211-75751518-1524-4812-9d57-c78664ba1aeb.png)
+![image](https://user-images.githubusercontent.com/77631413/172843038-b7151a03-1d78-427f-ba5a-895a70c1fe05.png)
+
 
 Sınav sonucu butonuna basarak doğru veya yanlış yaptığımızı görebiliriz:
 ![image](https://user-images.githubusercontent.com/77631413/172841390-358f00d4-71e6-4df1-88f7-c742aaa5bdb9.png)
